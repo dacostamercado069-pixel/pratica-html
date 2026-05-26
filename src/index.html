@@ -3,13 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pratica HTML</title>
+  <title>Lista de Productos</title>
   <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
 
-  <h1>Kristy Acosta Mercado</h1>
+  <div class="container">
+
+    <h1 class="titulo">📦 Lista de Productos</h1>
+    <p class="subtitulo">Gestión de inventario</p>
+
+    <div class="tabla-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Categoría</th>
+            <th>Activo</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Teclado mecánico</td>
+            <td><span class="precio">₡45.000</span></td>
+            <td>Periféricos</td>
+            <td><span class="badge activo">Activo</span></td>
+            <td>
+              <button class="btn-editar">Editar</button>
+              <button class="btn-borrar">Borrar</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Monitor 24"</td>
+            <td><span class="precio">₡100.000</span></td>
+            <td>Pantallas</td>
+            <td><span class="badge activo">Activo</span></td>
+            <td>
+              <button class="btn-editar">Editar</button>
+              <button class="btn-borrar">Borrar</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Mouse inalámbrico</td>
+            <td><span class="precio">₡25.000</span></td>
+            <td>Periféricos</td>
+            <td><span class="badge activo">Activo</span></td>
+            <td>
+              <button class="btn-editar">Editar</button>
+              <button class="btn-borrar">Borrar</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Silla gamer</td>
+            <td><span class="precio">₡180.000</span></td>
+            <td>Mobiliario</td>
+            <td><span class="badge inactivo">Inactivo</span></td>
+            <td>
+              <button class="btn-editar">Editar</button>
+              <button class="btn-borrar">Borrar</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Auriculares USB</td>
+            <td><span class="precio">₡60.000</span></td>
+            <td>Audio</td>
+            <td><span class="badge activo">Activo</span></td>
+            <td>
+              <button class="btn-editar">Editar</button>
+              <button class="btn-borrar">Borrar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
 
   <script type="module" src="main.js"></script>
 </body>
+</html>
 </html>
